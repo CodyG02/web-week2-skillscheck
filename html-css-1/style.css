@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: gray;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+
+}
+
+.company{
+    color:white;
+   font-size: 30px;
+    position: relative;
+    padding-left: 30px;
+    height: 8vh;
+    width: 100vw;
+    background-color: grey;
+    
+
+}
+
+.nav{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    justify-content: center;
+    bottom: 15%;
+   
+}
+
+.nav-list{
+    list-style-type: none;
+    align-items: center;
+    font-size: 14px;
+    float: right;
+    width: 75px;
+   
+
+}
+
+.box-1{
+background-color: black;
+color: yellow;
+font-size: 60px;
+height: 45vh;
+width: 100vw;
+align-items: center;
+padding-left: 200px;
+padding-top: 150px;
+
+
+}
+
+.main{
+    background-color: white;
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* align-items: center; */
+    align-items: initial;
+    flex-wrap: wrap;
+    
+
+}
+
+.teal{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 45px
+}
+
+.orange{
+    height: 200px;
+    width: 450px;
+    background-color: orange;
+    margin-left: 15px;
+}
+
+.text{ 
+    height: 150px;
+    width: 375px;
+    background-color: white;
+
+}
+
+.snow{
+    height: 150px;
+    width:300px
+
+}
+
+footer{
+    background-color: slategray;
+    width: 100vw;
+    height: 10vh;
+}
